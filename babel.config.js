@@ -1,4 +1,4 @@
-const babelConfig = api => {
+const babelConfig = (api) => {
   api.cache.using(() => process.env.NODE_ENV);
 
   const plugins = [];
@@ -7,6 +7,7 @@ const babelConfig = api => {
       '@shaizei/babel-preset',
       {
         typescript: true,
+        emotion: true,
       },
     ],
   ];

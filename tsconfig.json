@@ -1,10 +1,12 @@
 {
   "extends": "@shaizei/typescript-config",
   "compilerOptions": {
+    "incremental": true,
     "baseUrl": "src",
     "paths": {
       "*": ["*"]
-    }
+    },
+    "types": ["@emotion/core"]
   },
   "exclude": ["build", "node_modules"],
   "include": ["src/**/*"]

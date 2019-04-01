@@ -16,9 +16,14 @@
     "prettier:fix": "shaizei prettier-fix"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@reach/router": "^1.2.1",
     "react": "^16.8.6",
+    "react-content-loader": "^4.2.1",
     "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.8.1"
+    "react-hot-loader": "^4.8.1",
+    "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
     "@shaizei/babel-preset": "^0.1.0-beta.4",
