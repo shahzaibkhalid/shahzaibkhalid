@@ -885,6 +885,17 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     react-hot-loader "^4.8.0"
 
+"@shaizei/cli@^0.1.0-beta.4":
+  version "0.1.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@shaizei/cli/-/cli-0.1.0-beta.4.tgz#1f4eae048d0877a7c41283830a1805f4add3963b"
+  integrity sha512-C/UOtK35HLh1RFmw2u/mCJfom5i384Hq07lTJk60G4WBSudA15jSqFTZY0/UxnKfn2qiVLTJJBxE2G9yXaFB8w==
+  dependencies:
+    "@shaizei/scripts" "^0.1.0-beta.4"
+    chalk "^2.4.2"
+    commander "^2.19.0"
+    del "^4.0.0"
+    load-json-file "^5.2.0"
+
 "@shaizei/eslint-config@^0.1.0-beta.4":
   version "0.1.0-beta.4"
   resolved "https://registry.yarnpkg.com/@shaizei/eslint-config/-/eslint-config-0.1.0-beta.4.tgz#0ad4b67e94160a7ad61cd5145814d66de3b5c25a"
