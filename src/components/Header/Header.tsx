@@ -1,8 +1,8 @@
 /**@jsx jsx */
 import { jsx } from '@emotion/core';
-import Avatar from 'components/Avatar/Avatar';
+// import Avatar from 'components/Avatar/Avatar';
 import Name from 'components/Name/Name';
-import myEmoji from 'assets/profile.jpg';
+// import myEmoji from 'assets/profile.jpg';
 import TagLine from 'components/TagLine/TagLine';
 import Description from 'components/Description/Description';
 import Heading from 'components/Heading/Heading';
@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
         padding: 10,
       }}
     >
-      <Avatar src={myEmoji} alt='Shahzaib Avatar' />
+      {/* <Avatar src={myEmoji} alt='Shahzaib Avatar' /> */}
       <Name>Shahzaib Khalid</Name>
       <TagLine>
         Developer Advocate for JavaScript{' '}
